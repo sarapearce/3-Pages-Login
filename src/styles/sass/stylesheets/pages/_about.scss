@@ -1,0 +1,104 @@
+
+/*Image Banner Styles*/
+
+.img-set {
+    @include outer-container(100%);
+    padding: 0;
+    display: block;
+    @include media($md) {
+        display: list-item;
+        float: left;
+    }
+}
+
+.img-set a {
+    /*border: 2px solid black;*/
+    @include span-columns(6);
+    padding: 0;
+    @include media($md) {
+        display: list-item;
+    }
+}
+
+/*setting the images to be background images for the button/linking*/
+.left-banner-img {
+    z-index: -1;
+    height: 486px;
+    /*position: absolute;*/
+    @include outer-container(6);
+    @include media($md) {
+        display: list-item;
+    }
+    margin-right: 1px; 
+}
+
+.right-banner-img {
+    z-index: -1;
+    height: 486px;
+    /*position: absolute;*/
+    margin-left: 1px;
+    float: right;
+    @include media($md) {
+        display: list-item;
+    }
+
+}
+
+.banner-btn {
+    z-index: 2;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 350px;
+    border: 2px solid white;
+    height: 50px;
+    min-width: 40px !important; 
+    @include span-columns(1 of 6);
+    @include shift(1);
+    @include omega();
+}
+
+.banner-btn a {
+    text-decoration: none;
+}
+
+.banner-btn-txt {
+    z-index: 2;
+    position: absolute;
+    font-size: medium;
+    color: white;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+/*About Us Text Styles*/
+.down-arrow {
+    /*this is hyper specific since nothing else looked good*/
+    margin-left: 25.5%; 
+    padding: 0;
+    margin-top: 3px;
+}
+.about-text-wrapper {
+    /*border: 2px solid pink;*/
+    background-color: white;
+    margin-left: 33.67%;
+    margin: 0;
+}
+
+.about-text-wrapper h1, h2, h3, h4, h6, p {
+    /*border: 2px solid blue;*/
+    @include span-columns(6);
+    @include shift(3);
+    text-align: center;
+}
+
+.about-text-wrapper h5 {
+    text-align: center;
+}
+

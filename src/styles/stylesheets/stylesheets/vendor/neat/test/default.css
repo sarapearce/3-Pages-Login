@@ -1,0 +1,9 @@
+/* line 4, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}

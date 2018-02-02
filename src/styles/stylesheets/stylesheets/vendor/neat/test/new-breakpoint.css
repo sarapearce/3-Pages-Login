@@ -1,0 +1,21 @@
+/* line 4, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 5, ../../../../../sass/stylesheets/vendor/neat/test/new-breakpoint.scss */
+  .responsive-element {
+    color: #000;
+  }
+}
+
+/* line 11, ../../../../../sass/stylesheets/vendor/neat/test/new-breakpoint.scss */
+#visual-grid-breakpoints {
+  value: max-width 768px 12;
+}

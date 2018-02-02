@@ -1,0 +1,64 @@
+/* line 4, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+/* line 3, ../../../../../sass/stylesheets/vendor/neat/test/omega.scss */
+.omega-default {
+  margin-right: 0;
+}
+
+/* line 78, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_omega.scss */
+.omega-nth-default:nth-child(4n) {
+  margin-right: 0;
+}
+/* line 108, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_omega.scss */
+.omega-nth-default:nth-child(4n+1) {
+  clear: left;
+}
+
+/* line 78, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_omega.scss */
+.omega-complex-nth:nth-child(4n+1) {
+  margin-right: 0;
+}
+/* line 103, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_omega.scss */
+.omega-complex-nth:nth-child(4n+2) {
+  clear: left;
+}
+
+/* line 78, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_omega.scss */
+.omega-complex-nth-negative:nth-child(3n-1) {
+  margin-right: 0;
+}
+/* line 103, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_omega.scss */
+.omega-complex-nth-negative:nth-child(3n-0) {
+  clear: left;
+}
+
+/* line 19, ../../../../../sass/stylesheets/vendor/neat/test/omega.scss */
+section {
+  display: block;
+}
+/* line 20, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/mixins/_clearfix.scss */
+section::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/* line 22, ../../../../../sass/stylesheets/vendor/neat/test/omega.scss */
+section .omega-default-left {
+  margin-left: 0;
+}
+/* line 78, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_omega.scss */
+section .omega-nth-default-left:nth-child(4n) {
+  margin-left: 0;
+}
+/* line 108, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_omega.scss */
+section .omega-nth-default-left:nth-child(4n+1) {
+  clear: right;
+}

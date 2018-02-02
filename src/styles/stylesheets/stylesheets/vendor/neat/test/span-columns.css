@@ -1,0 +1,60 @@
+/* line 4, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+/* line 3, ../../../../../sass/stylesheets/vendor/neat/test/span-columns.scss */
+.span-columns-default {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+}
+/* line 89, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_span-columns.scss */
+.span-columns-default:last-child {
+  margin-right: 0;
+}
+/* line 6, ../../../../../sass/stylesheets/vendor/neat/test/span-columns.scss */
+.span-columns-default .span-columns-nested {
+  float: left;
+  display: block;
+  margin-right: 4.82916%;
+  width: 30.11389%;
+}
+/* line 89, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_span-columns.scss */
+.span-columns-default .span-columns-nested:last-child {
+  margin-right: 0;
+}
+
+/* line 11, ../../../../../sass/stylesheets/vendor/neat/test/span-columns.scss */
+.span-columns-table {
+  display: table-cell;
+  width: 50%;
+}
+
+/* line 15, ../../../../../sass/stylesheets/vendor/neat/test/span-columns.scss */
+.span-columns-collapse {
+  float: left;
+  display: block;
+  width: 51.17883%;
+}
+/* line 81, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_span-columns.scss */
+.span-columns-collapse:last-child {
+  width: 48.82117%;
+}
+
+/* line 19, ../../../../../sass/stylesheets/vendor/neat/test/span-columns.scss */
+.span-columns-no-display {
+  float: left;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+}
+/* line 89, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_span-columns.scss */
+.span-columns-no-display:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,35 @@
+/* line 4, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+/* line 5, ../../../../../sass/stylesheets/vendor/neat/test/outer-container.scss */
+.container-default {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 20, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/mixins/_clearfix.scss */
+.container-default::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* line 9, ../../../../../sass/stylesheets/vendor/neat/test/outer-container.scss */
+.container-custom-width {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 20, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/mixins/_clearfix.scss */
+.container-custom-width::after {
+  clear: both;
+  content: "";
+  display: block;
+}

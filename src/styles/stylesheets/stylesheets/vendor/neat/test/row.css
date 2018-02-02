@@ -1,0 +1,62 @@
+/* line 4, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+/* line 3, ../../../../../sass/stylesheets/vendor/neat/test/row.scss */
+.row-default {
+  display: block;
+}
+/* line 20, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/mixins/_clearfix.scss */
+.row-default::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* line 7, ../../../../../sass/stylesheets/vendor/neat/test/row.scss */
+.row-table {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+/* line 11, ../../../../../sass/stylesheets/vendor/neat/test/row.scss */
+.row-invalid-display {
+  display: block;
+}
+/* line 20, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/mixins/_clearfix.scss */
+.row-invalid-display::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* line 15, ../../../../../sass/stylesheets/vendor/neat/test/row.scss */
+.row-table-reset {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+/* line 18, ../../../../../sass/stylesheets/vendor/neat/test/row.scss */
+.row-table-reset .block-child {
+  display: table-cell;
+  width: 33.33333%;
+}
+
+/* line 24, ../../../../../sass/stylesheets/vendor/neat/test/row.scss */
+.no-row {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+}
+/* line 89, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_span-columns.scss */
+.no-row:last-child {
+  margin-right: 0;
+}

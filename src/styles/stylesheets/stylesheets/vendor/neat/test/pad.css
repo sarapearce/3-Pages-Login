@@ -1,0 +1,29 @@
+/* line 4, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, ../../../../../sass/stylesheets/vendor/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+/* line 3, ../../../../../sass/stylesheets/vendor/neat/test/pad.scss */
+.pad-default {
+  padding: 2.35765%;
+}
+
+/* line 7, ../../../../../sass/stylesheets/vendor/neat/test/pad.scss */
+.pad-explicit {
+  padding: 20px;
+}
+
+/* line 11, ../../../../../sass/stylesheets/vendor/neat/test/pad.scss */
+.pad-shorthand {
+  padding: 30px 20px 10px 5px;
+}
+
+/* line 15, ../../../../../sass/stylesheets/vendor/neat/test/pad.scss */
+.pad-shorthand-default {
+  padding: 30px 2.35765% 10px 2.35765%;
+}

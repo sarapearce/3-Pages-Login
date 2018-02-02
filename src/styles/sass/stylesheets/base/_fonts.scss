@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+
+/*import Raleway (sans-serif)font
+@font-face {
+    font-family: Raleway;  
+    src: url(https://fonts.googleapis.com/css?family=Raleway);
+    font-weight: normal;  
+}
+import Baskerville (serif) font
+@font-face {
+    font-family: Baskerville;  
+    src: url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+    font-weight: normal;  
+}*/
+
+
+/*use Raleway for most of the text*/
+h1, h2, h3, h5, h6, p, a {
+    font-family: Raleway;
+}
+
+/*save the h4 for fancy headers*/
+h4 {
+    font-family: Baskerville;
+}

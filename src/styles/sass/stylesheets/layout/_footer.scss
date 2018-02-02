@@ -1,0 +1,41 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+footer {
+    background-color: #383838;
+    height: 150px;
+    // @include outer-container(100%);
+    /*margin-bottom: 0;*/
+
+}
+
+.site-info {
+    /*border: 2px solid white;*/
+    font-size: small;
+    padding: 0;
+    /*cols for the text*/
+    @include span-columns(12);
+    @include omega();
+}
+
+.site-info a {
+    text-decoration: none;
+    color:grey;
+}
+
+.site-info p {
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.site-info a:hover {
+    color: white;
+}
+
+.footer-logo {
+    float: right;
+    height: 150px;
+}
